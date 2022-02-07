@@ -1,0 +1,122 @@
+body {
+  min-width: 320px;
+  max-width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #343a40;
+}
+
+th {
+  cursor: pointer;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0 100px;
+  max-width: 1300px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.header {
+  margin: 20px;
+  text-align: center;
+  font-size: 28px;
+
+}
+
+.header-paragraph {
+  margin: 20px;
+  font-size: 20px;
+
+}
+
+.students-item.is-active {
+  border: 1px solid #ced4da;
+}
+
+.students-item.validate {
+  border: 1px solid #dc3545;
+}
+
+.table,
+.filter {
+  margin-top: 20px;
+}
+
+.wrapper {
+  display: none;
+  position: absolute;
+  padding: 20px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  z-index: 100;
+  background-color: #efefef;
+  color: #848484;
+  font-size: 24px;
+}
+
+.wrapper.is-active {
+  background-color: #efefef;
+}
+
+.wrapper.validate {
+  background-color: transparent;
+}
+
+.consent-button.is-active {
+  display: none;
+}
+
+.students-list {
+  display: none;
+}
+
+.add-students.is-active {
+  display: none;
+}
+
+.students-list.is-active {
+  display: flex;
+}
+
+.search {
+  display: none;
+}
+
+.search.is-active {
+  display: flex;
+}
+
+.search-students.is-active {
+  display: none;
+}
+
+.alert-year,
+.alert-year2000,
+.alert-search,
+.alert-ru,
+.alert-bd {
+  display: none;
+  position: absolute;
+}
+
+.alertYear.is-active,
+.alertYear2000.is-active {
+  display: block;
+}
+
+.hr {
+  color: #198754
+}
